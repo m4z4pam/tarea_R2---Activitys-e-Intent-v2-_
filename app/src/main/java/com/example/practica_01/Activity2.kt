@@ -26,7 +26,7 @@ class Activity2 : AppCompatActivity() {
             insets
         }
 
-        val datoRecibido = intent.getStringExtra("dato") // viene de MainActivity
+        val datoRecibido = intent.getStringExtra("dato")
 
         editTextCity = findViewById(R.id.editTextCity)
         btNext = findViewById(R.id.bt_next)
