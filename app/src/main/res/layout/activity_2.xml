@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".Activity2">
 
-    <!-- Título -->
     <TextView
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
@@ -20,7 +19,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="40dp"/>
 
-    <!-- Caja de texto centrada -->
     <EditText
         android:id="@+id/editTextCity"
         android:layout_width="0dp"
@@ -35,7 +33,6 @@
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"/>
 
-    <!-- Botón grande y centrado -->
     <Button
         android:id="@+id/bt_next"
         android:layout_width="0dp"
